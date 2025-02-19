@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
                 // แสดง Bottom Sheet และสามารถขยายพื้นที่ได้เมื่อมีข้อมูลเพิ่มขึ้น
                 isScrollControlled: true,
                 context: context,
-                builder: (context) => ProductPopup(),
+                builder: (context) => const ProductPopup(),
               );
             },
             icon: const Icon(Icons.add),
